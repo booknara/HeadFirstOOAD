@@ -5,7 +5,7 @@ package com.github.booknara.musicshop;
  */
 public class Mandolin extends Instrument {
 
-    public Mandolin(String serialNumber, double price, InstrumentSpec spec, InstrumentType type) {
-        super(serialNumber, price, spec, type);
+    public Mandolin(String serialNumber, double price, InstrumentSpec spec) {
+        super(serialNumber, price, spec);
     }
 }

@@ -12,7 +12,8 @@ public enum Wood {
     CEDAR,
     ADIRONDACK,
     ALDER,
-    SITKA;
+    SITKA,
+    SPRUCE;
 
     public String toString() {
         switch (this) {
@@ -25,6 +26,7 @@ public enum Wood {
             case ADIRONDACK: return "Adirondack";
             case ALDER: return "Alder";
             case SITKA: return "Sitka";
+            case SPRUCE: return "Spruce";
             default: return "Unspecified";
         }
     }

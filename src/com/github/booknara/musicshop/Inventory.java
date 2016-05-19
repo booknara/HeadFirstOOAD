@@ -13,8 +13,8 @@ public class Inventory {
         this.inventory = new LinkedList<>();
     }
 
-    public void addInstrument(String serialNumber, double price, InstrumentSpec spec, InstrumentType type) {
-        Instrument instrument = new Instrument(serialNumber, price, spec, type);
+    public void addInstrument(String serialNumber, double price, InstrumentSpec spec) {
+        Instrument instrument = new Instrument(serialNumber, price, spec);
 
         inventory.add(instrument);
     }
